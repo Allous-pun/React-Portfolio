@@ -1,0 +1,55 @@
+.Topbar {
+  background-color: #333; /* Light black background */
+  width: 450px; 
+  padding: 10px; /* Padding adjustment */
+  font-size: 14px; /* Font size adjustment */
+  border-top-right-radius: 10px; /* Top right corner border radius */
+  border-bottom-left-radius: 10px; /* Bottom left corner border radius */
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Stack items horizontally */
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px; /* Padding for menu items */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #555; /* Darken background on hover */
+}
+
+.menu .active {
+  font-weight: bold;
+  background-color: #555; /* Background color for active link */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .Topbar {
+    width: 100%; /* Full width */
+    max-width: 450px; /* Max width */
+    /* Additional styles if needed for responsiveness */
+  }
+}
+
+@media (max-width: 330px) {
+  .Topbar {
+    padding: 5px; /* Adjust padding for smaller screens */
+    font-size: 12px; /* Decrease font size */
+    /* Any additional styles specific to screens up to 330px wide */
+  }
+}
+

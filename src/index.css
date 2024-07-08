@@ -1,0 +1,19 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* src/index.css */
+body {
+  background-color: #1a1a1a; /* Dark gray color */
+  color: white; /* Ensure the text is visible on the dark background */
+  margin: 0;
+  font-family: 'Sans Serif', sans-serif;
+}
+
+.App .content {
+  padding: 20px;
+}
+
+
